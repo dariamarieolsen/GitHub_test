@@ -4,7 +4,10 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
+
+  const daria = 'Olsen';
+  console.log("Hello, " + daria);
 
   return (
     <>
